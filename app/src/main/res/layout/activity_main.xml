@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#832A2A"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#4D0909"
+        android:text="Peliculas en Cartelera!!"
+        android:textAlignment="center"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
